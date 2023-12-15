@@ -5,7 +5,7 @@
 
 </head>
 <body>
-    <%= data.forEach(function(item) { %> 
+    <% data.forEach(function(item) { %> 
 <p><a href='http://localhost:3000/admin/<%= item.idArticle %>'><%=item.titleArticle %></a>    
     <p>
         <%= item.descriptionArticle %>
