@@ -1,5 +1,5 @@
 let express = require('express');
-let app = expess();
+let app = express();
 let bodyParser = require('body-parser');
 let urlencodedParser = bodyParser.urlencoded({extended : false});
 app.use(express.static(__dirname + '/public'));
