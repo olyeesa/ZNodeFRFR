@@ -21,7 +21,7 @@ exports.getOne=async function(req,res){
     filter=[req];
     await connection.query(sql,filter)
     .then(data=> {
-        for (let i=0;i<data.length;i++)
+        for (let i=0;i<data[0].length;i++)
         {
             arr[i]=data[0][i];
         }
@@ -49,7 +49,7 @@ exports.editOne=async function(req,res){
     filter=[req.titleArticle, req.textArticle, req.descriptionArticle,+req.idArticle];
     await connection.query(sql,filter)
     .then(data=> {
-        for (let i=0;i<data.length;i++)
+        for (let i=0;i<data[0].length;i++)
         {
             arr[i]=data[0][i];
         }
