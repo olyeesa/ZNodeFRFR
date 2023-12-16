@@ -1,28 +1,22 @@
 {
   "name": "znode",
   "version": "1.0.0",
-  "description": "npm install znode",
+  "description": "my project1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olyeesa/node-task1.git"
+    "url": "git+https://github.com/olyeesa/ZNodeFRFR.git"
   },
-  "author": "al",
+  "author": "olyeesa",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/olyeesa/node-task1/issues"
-  },
-  "homepage": "https://github.com/olyeesa/node-task1#readme",
   "devDependencies": {
     "body-parser": "^1.20.2",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
+    "mysql2": "^3.6.5",
     "nodemon": "^3.0.2"
-  },
-  "dependencies": {
-    "mysql2": "^3.6.5"
   }
 }
