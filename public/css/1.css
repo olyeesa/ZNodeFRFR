@@ -1,0 +1,30 @@
+body{
+    background-color:mediumpurple;
+}
+h2 {
+    text-align: center;
+    }
+
+p {
+    text-align: center;
+}
+
+input, button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+label, input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 50%;
+}
+form {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+  }
